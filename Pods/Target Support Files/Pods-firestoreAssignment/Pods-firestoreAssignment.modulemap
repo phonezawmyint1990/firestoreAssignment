@@ -1,0 +1,6 @@
+framework module Pods_firestoreAssignment {
+  umbrella header "Pods-firestoreAssignment-umbrella.h"
+
+  export *
+  module * { export * }
+}

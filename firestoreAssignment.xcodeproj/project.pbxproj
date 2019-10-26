@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB1ECF392362227C009C7996 /* FoodItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1ECF372362227C009C7996 /* FoodItemTableViewCell.swift */; };
+		FB1ECF3A2362227C009C7996 /* FoodItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB1ECF382362227C009C7996 /* FoodItemTableViewCell.xib */; };
+		FB1ECF3D23622EC0009C7996 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1ECF3C23622EC0009C7996 /* CardView.swift */; };
+		FB2643812363DD84002C44E6 /* ImageViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2643802363DD84002C44E6 /* ImageViewManager.swift */; };
+		FB264383236401F6002C44E6 /* TaskVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB264382236401F6002C44E6 /* TaskVO.swift */; };
+		FB5FDA0C236061D000E85684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5FDA0B236061D000E85684 /* AppDelegate.swift */; };
+		FB5FDA0E236061D000E85684 /* FoodItemListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5FDA0D236061D000E85684 /* FoodItemListsViewController.swift */; };
+		FB5FDA11236061D000E85684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5FDA0F236061D000E85684 /* Main.storyboard */; };
+		FB5FDA13236061D100E85684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5FDA12236061D100E85684 /* Assets.xcassets */; };
+		FB5FDA16236061D100E85684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5FDA14236061D100E85684 /* LaunchScreen.storyboard */; };
+		FB5FDA202360686100E85684 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB5FDA1F2360686100E85684 /* GoogleService-Info.plist */; };
+		FBACC8822362DB140095DC11 /* FoodItemInsertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBACC8812362DB140095DC11 /* FoodItemInsertViewController.swift */; };
+		FBACC8852363097A0095DC11 /* FoodVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBACC8842363097A0095DC11 /* FoodVO.swift */; };
+		FEE4E3CBA0EFA799C8C733CA /* Pods_firestoreAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A588F15E6539C7F918A2D0E /* Pods_firestoreAssignment.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F72489CED5665132589F677 /* Pods-firestoreAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firestoreAssignment.debug.xcconfig"; path = "Target Support Files/Pods-firestoreAssignment/Pods-firestoreAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		7A588F15E6539C7F918A2D0E /* Pods_firestoreAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firestoreAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F689F22F0FFC84D0EEC299 /* Pods-firestoreAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firestoreAssignment.release.xcconfig"; path = "Target Support Files/Pods-firestoreAssignment/Pods-firestoreAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		FB1ECF372362227C009C7996 /* FoodItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemTableViewCell.swift; sourceTree = "<group>"; };
+		FB1ECF382362227C009C7996 /* FoodItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodItemTableViewCell.xib; sourceTree = "<group>"; };
+		FB1ECF3C23622EC0009C7996 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FB2643802363DD84002C44E6 /* ImageViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewManager.swift; sourceTree = "<group>"; };
+		FB264382236401F6002C44E6 /* TaskVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskVO.swift; sourceTree = "<group>"; };
+		FB5FDA08236061D000E85684 /* firestoreAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firestoreAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5FDA0B236061D000E85684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB5FDA0D236061D000E85684 /* FoodItemListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemListsViewController.swift; sourceTree = "<group>"; };
+		FB5FDA10236061D000E85684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB5FDA12236061D100E85684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB5FDA15236061D100E85684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB5FDA17236061D100E85684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5FDA1F2360686100E85684 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FBACC8812362DB140095DC11 /* FoodItemInsertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemInsertViewController.swift; sourceTree = "<group>"; };
+		FBACC8842363097A0095DC11 /* FoodVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodVO.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB5FDA05236061D000E85684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE4E3CBA0EFA799C8C733CA /* Pods_firestoreAssignment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9E33C747658FF24B5740F56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A588F15E6539C7F918A2D0E /* Pods_firestoreAssignment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF993D644D802744E11DB205 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F72489CED5665132589F677 /* Pods-firestoreAssignment.debug.xcconfig */,
+				E7F689F22F0FFC84D0EEC299 /* Pods-firestoreAssignment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB1ECF34236220DE009C7996 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				FB1ECF36236220F0009C7996 /* xibs */,
+				FB1ECF35236220E7009C7996 /* swifts */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		FB1ECF35236220E7009C7996 /* swifts */ = {
+			isa = PBXGroup;
+			children = (
+				FB1ECF372362227C009C7996 /* FoodItemTableViewCell.swift */,
+			);
+			path = swifts;
+			sourceTree = "<group>";
+		};
+		FB1ECF36236220F0009C7996 /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				FB1ECF382362227C009C7996 /* FoodItemTableViewCell.xib */,
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
+		FB1ECF3B23622EA7009C7996 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				FB1ECF3C23622EC0009C7996 /* CardView.swift */,
+				FB2643802363DD84002C44E6 /* ImageViewManager.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		FB5FD9FF236061D000E85684 = {
+			isa = PBXGroup;
+			children = (
+				FB5FDA0A236061D000E85684 /* firestoreAssignment */,
+				FB5FDA09236061D000E85684 /* Products */,
+				CF993D644D802744E11DB205 /* Pods */,
+				A9E33C747658FF24B5740F56 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB5FDA09236061D000E85684 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB5FDA08236061D000E85684 /* firestoreAssignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB5FDA0A236061D000E85684 /* firestoreAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				FBACC883236309530095DC11 /* vos */,
+				FB1ECF3B23622EA7009C7996 /* components */,
+				FB1ECF34236220DE009C7996 /* cells */,
+				FB5FDA1E236065E300E85684 /* storyboards */,
+				FB5FDA1D236065D400E85684 /* controllers */,
+				FB5FDA0B236061D000E85684 /* AppDelegate.swift */,
+				FB5FDA12236061D100E85684 /* Assets.xcassets */,
+				FB5FDA14236061D100E85684 /* LaunchScreen.storyboard */,
+				FB5FDA17236061D100E85684 /* Info.plist */,
+				FB5FDA1F2360686100E85684 /* GoogleService-Info.plist */,
+			);
+			path = firestoreAssignment;
+			sourceTree = "<group>";
+		};
+		FB5FDA1D236065D400E85684 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB5FDA0D236061D000E85684 /* FoodItemListsViewController.swift */,
+				FBACC8812362DB140095DC11 /* FoodItemInsertViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		FB5FDA1E236065E300E85684 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FB5FDA0F236061D000E85684 /* Main.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		FBACC883236309530095DC11 /* vos */ = {
+			isa = PBXGroup;
+			children = (
+				FBACC8842363097A0095DC11 /* FoodVO.swift */,
+				FB264382236401F6002C44E6 /* TaskVO.swift */,
+			);
+			path = vos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB5FDA07236061D000E85684 /* firestoreAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5FDA1A236061D100E85684 /* Build configuration list for PBXNativeTarget "firestoreAssignment" */;
+			buildPhases = (
+				965A5F6BE29DCA53F9919F4F /* [CP] Check Pods Manifest.lock */,
+				FB5FDA04236061D000E85684 /* Sources */,
+				FB5FDA05236061D000E85684 /* Frameworks */,
+				FB5FDA06236061D000E85684 /* Resources */,
+				918453629CAFB061FC37E5A9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = firestoreAssignment;
+			productName = firestoreAssignment;
+			productReference = FB5FDA08236061D000E85684 /* firestoreAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB5FDA00236061D000E85684 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Phone Zaw Myint";
+				TargetAttributes = {
+					FB5FDA07236061D000E85684 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FB5FDA03236061D000E85684 /* Build configuration list for PBXProject "firestoreAssignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB5FD9FF236061D000E85684;
+			productRefGroup = FB5FDA09236061D000E85684 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB5FDA07236061D000E85684 /* firestoreAssignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB5FDA06236061D000E85684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5FDA16236061D100E85684 /* LaunchScreen.storyboard in Resources */,
+				FB5FDA202360686100E85684 /* GoogleService-Info.plist in Resources */,
+				FB5FDA13236061D100E85684 /* Assets.xcassets in Resources */,
+				FB5FDA11236061D000E85684 /* Main.storyboard in Resources */,
+				FB1ECF3A2362227C009C7996 /* FoodItemTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		918453629CAFB061FC37E5A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firestoreAssignment/Pods-firestoreAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firestoreAssignment/Pods-firestoreAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firestoreAssignment/Pods-firestoreAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		965A5F6BE29DCA53F9919F4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firestoreAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB5FDA04236061D000E85684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2643812363DD84002C44E6 /* ImageViewManager.swift in Sources */,
+				FB1ECF392362227C009C7996 /* FoodItemTableViewCell.swift in Sources */,
+				FB5FDA0E236061D000E85684 /* FoodItemListsViewController.swift in Sources */,
+				FBACC8822362DB140095DC11 /* FoodItemInsertViewController.swift in Sources */,
+				FBACC8852363097A0095DC11 /* FoodVO.swift in Sources */,
+				FB1ECF3D23622EC0009C7996 /* CardView.swift in Sources */,
+				FB5FDA0C236061D000E85684 /* AppDelegate.swift in Sources */,
+				FB264383236401F6002C44E6 /* TaskVO.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB5FDA0F236061D000E85684 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5FDA10236061D000E85684 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB5FDA14236061D100E85684 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5FDA15236061D100E85684 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB5FDA18236061D100E85684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB5FDA19236061D100E85684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB5FDA1B236061D100E85684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F72489CED5665132589F677 /* Pods-firestoreAssignment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = firestoreAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.padc.firestoreAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB5FDA1C236061D100E85684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7F689F22F0FFC84D0EEC299 /* Pods-firestoreAssignment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = firestoreAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.padc.firestoreAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB5FDA03236061D000E85684 /* Build configuration list for PBXProject "firestoreAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5FDA18236061D100E85684 /* Debug */,
+				FB5FDA19236061D100E85684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5FDA1A236061D100E85684 /* Build configuration list for PBXNativeTarget "firestoreAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5FDA1B236061D100E85684 /* Debug */,
+				FB5FDA1C236061D100E85684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB5FDA00236061D000E85684 /* Project object */;
+}
